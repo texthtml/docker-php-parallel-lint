@@ -2,7 +2,7 @@ FROM php:7-alpine
 
 RUN ln -s /opt/php-parallel-lint/parallel-lint /bin/parallel-lint
 
-ENV VERSION=master
+ENV VERSION=v0.9.2
 
 RUN mkdir -p /opt/php-parallel-lint/ && \
     curl -L https://github.com/JakubOnderka/PHP-Parallel-Lint/archive/$VERSION.tar.gz | \
