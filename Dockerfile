@@ -1,4 +1,4 @@
-FROM php:7-alpine
+FROM php:8-alpine
 
 RUN ln -s /opt/php-parallel-lint/parallel-lint /bin/parallel-lint
 
